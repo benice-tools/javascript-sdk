@@ -1,5 +1,5 @@
 {
-  "name": "javascript-sdk",
+  "name": "@benice/javascript-sdk",
   "version": "2.7.0",
   "license": "Apache-2.0",
   "main": "lib/index.js",
@@ -60,6 +60,20 @@
     ]
   },
   "files": [
-    "*"
-  ]
+    "lib/*"
+  ],
+  "description": "The Binance Chain JavaScript SDK allows browsers and node.js clients to interact with Binance Chain. It includes the following core components:",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/benice-tools/javascript-sdk.git"
+  },
+  "author": "Benice",
+  "bugs": {
+    "url": "https://github.com/benice-tools/javascript-sdk/issues"
+  },
+  "homepage": "https://github.com/benice-tools/javascript-sdk#readme"
 }
